@@ -1,21 +1,19 @@
 import { StyleSheet } from "react-native";
 
-const styles = StyleSheet.create ({
-
+const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
     backgroundColor: '#fff',
     position: 'relative'
   },
-
   navGroup: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     marginBottom: 20,
     marginTop: 11
   },
-   largeText: {
+  largeText: {
     fontSize: 40,
     fontWeight: 700,
   },
@@ -112,8 +110,8 @@ const styles = StyleSheet.create ({
     color: '#FFA800',
     fontWeight: 600
   }
-  
 });
+
 
 export {
   styles
