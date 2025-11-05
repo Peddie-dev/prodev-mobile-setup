@@ -15,6 +15,10 @@ const styles = StyleSheet.create ({
     marginBottom: 20,
     marginTop: 11
   },
+   largeText: {
+    fontSize: 40,
+    fontWeight: 700,
+  },
   smallText: {
     fontSize: 12,
     color: '#7E7B7B'
